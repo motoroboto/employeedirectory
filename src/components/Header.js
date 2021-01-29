@@ -1,12 +1,22 @@
-import React from 'react';
-import "../styles/header.css";
+import React from "react";
+import '../styles/header.css';
 
-function Header() {
+const Header = (props) => {
     return (
-        <div className="header">
-            <h1>Employee Directory</h1>
-        </div>
-    )
-}
+    <nav className="navbar content-right">
+        <h1>Employee Directory</h1>
+        <form className="form-inline m-2 form-control-lg" onSubmit={props.handleFormSubmit}>
+            <input
+                className="form-control"
+                value={props.value}
+                name="search"
+                onChange={props.handleInputChange}
+                type="search"
+                placeholder="Search"
+            />
+        </form>
+    </nav>
+    );
+};
 
 export default Header;

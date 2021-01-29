@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from './components/header';
 import Main from './components/main';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
+    <div>
+      {/* <Header /> */}
       <Main />
     </div>
   );

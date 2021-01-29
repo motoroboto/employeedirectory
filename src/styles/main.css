@@ -1,3 +1,18 @@
 body {
     background-color: cornsilk;
 }
+
+.table {
+  .-sort-desc {
+    &:before {
+      content: "▼";
+      float: right;
+    }
+  }
+  .-sort-asc {
+    &:before {
+      content: "▲";
+      float: right;
+    }
+  }
+}

@@ -24,7 +24,7 @@ const Table = (props) => {
                 </tr>
             </thead>
             <tbody>
-                {/* {props.state.filteredEmployees.map((employee) => {
+                {props.state.filteredEmployees.map((employee) => {
                     const { first, last } = employee.name;
                     const fullName = `${first} ${last}`;
 
@@ -45,7 +45,7 @@ const Table = (props) => {
                             <td className="align-middle">{dob}</td>
                         </tr>
                     );
-                })} */}
+                })}
             </tbody>
         </table>
     );
