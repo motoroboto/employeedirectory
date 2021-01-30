@@ -1,7 +1,10 @@
+
+/* Show pointer to indicate column header is clickable */
 thead th span{
     cursor: pointer;
 }
 
+/* Following classes allows for table to be scrollable */
 tbody {
     display: block;
     overflow-y: auto;
@@ -16,6 +19,4 @@ tbody tr {
     table-layout: fixed;
 }
 
-.email {
-    overflow-x: auto;
-}
+
