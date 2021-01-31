@@ -27,10 +27,7 @@ const Table = (props) => {
                 {props.state.filteredEmployees.map((employee) => {
                     const { first, last } = employee.name;
                     const fullName = `${first} ${last}`;
-
-                    // Format date
                     const dob = props.formatDate(employee.dob.date);
-
                     return (
                         <tr key={employee.login.uuid}>
                             <td>

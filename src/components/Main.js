@@ -103,7 +103,6 @@ class Main extends Component {
         dob.push(("0" + (date.getMonth() + 1)).slice(-2));
         dob.push(("0" + date.getDate()).slice(-2));
         dob.push(date.getFullYear());
-        //Combine DOB
         return dob.join("-");
     };
 
