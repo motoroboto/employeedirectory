@@ -2,10 +2,9 @@
 
 ## Week 19: React 
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<img src="https://github.com/motoroboto/employeedirectory/blob/main/assets/screenshot.png">
+<img src="https://raw.githubusercontent.com/motoroboto/employeedirectory/master/assets/screenshot.png">
 
 An employee directory built with react that generates a table of random users from the [Random User API](https://randomuser.me/). 
 You can then manipulate the table in the following ways:
